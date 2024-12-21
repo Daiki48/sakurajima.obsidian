@@ -1,12 +1,24 @@
 # Sakurajima
 
-Theme for Obsidian.
+<div align="center">
+<img src="./screenshots/cover.png" alt="Sakurajima cover" />
+</div>
 
-![sakurajima-obsidian](https://github.com/user-attachments/assets/1af0ebae-36cd-412e-a0d7-23f4e179b284)
+<div align="center">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Daiki48/sakurajima.obsidian">
+  <img alt="GitHub" src="https://img.shields.io/github/license/Daiki48/sakurajima.obsidian">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Daiki48/sakurajima.obsidian">
+</div>
+
+Theme for Obsidian.
 
 ## Install
 
-1. Open the **Settings menu** .
-2. Click **Manage** in **Appearance** .
-3. Filter by **Sakurajima** .
-4. Click **Install and use** .
+1. Open the **Settings menu**
+2. Click **Manage** in **Appearance**
+3. Filter by **Sakurajima**
+4. Click **Install and use**
+
+## Author
+
+Daiki Nakashima
