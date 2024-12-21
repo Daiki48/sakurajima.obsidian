@@ -1,7 +1,15 @@
 :root {
+	--radius-s: 2px;
+	--radius-m: 4px;
+	--radius-l: 6px;
+
 	--sakurajima-color-black-100: rgba(46, 46, 46, 1);
 	--sakurajima-color-black-200: rgba(28, 26, 25, 1);
 	--sakurajima-color-black-300: rgba(23, 22, 21, 1);
+
+	--sakurajima-color-light-black-100: rgba(46, 46, 46, 0.6);
+	--sakurajima-color-light-black-200: rgba(28, 26, 25, 0.6);
+	--sakurajima-color-light-black-300: rgba(23, 22, 21, 0.6);
 
 	--sakurajima-color-white-100: rgba(232, 222, 209, 1);
 	--sakurajima-color-white-200: rgba(181, 174, 165, 1);
@@ -29,14 +37,6 @@
 }
 
 body {
-	--radius-s: 2px;
-	--radius-m: 4px;
-	--radius-l: 6px;
-
-	--accent-h: var(--sakurajima-color-orange-100);
-	--accent-s: 60%;
-	--accent-l: 50%;
-
 	/* Interactive colors */
 	--interactive-normal: var(--sakurajima-color-black-100);
 	--interactive-hover: var(--sakurajima-color-black-200);
@@ -58,6 +58,10 @@ body {
 	/* Component: Color input */
 	--swatch-radius: var(--radius-m);
 
+	/* Component: Dropdowns */
+	--dropdown-background-brend-mode: var(--sakurajima-color-gray-100);
+	--dropdown-background-hover: var(--sakurajima-color-orange-100);
+
 	/* Component: Modal */
 	--modal-radius: var(--radius-m);
 
@@ -66,7 +70,7 @@ body {
 
 	/* Component: Slider */
 	--slider-thumb-radius: var(--radius-m);
-	--slider-track-background: var(--sakurajima-color-gray-300);
+	--slider-track-background: var(--sakurajima-color-orange-100);
 
 	/* Component: Tabs */
 	--tab-text-color-focused: var(--sakurajima-color-white-300);
@@ -81,9 +85,22 @@ body {
 	/* Component: Toggle */
 	--toggle-radius: var(--radius-m);
 	--toggle-thumb-radius: var(--radius-m);
+	--toggle-thumb-color: var(--sakurajima-color-orange-100);
+	--toggle-s-border-width: 2px;
 
 	/* Window: Ribbon */
 	--ribbon-background: var(--sakurajima-color-black-200);
+
+	/* Editor: Blockquote */
+	--blockquote-background-color: var(--sakurajima-color-black-200);
+	--blockquote-border-thickness: 10px;
+	--blockquote-border-color: var(--sakurajima-color-orange-100);
+	--blockquote-font-style: bold;
+	--blockquote-color: var(--sakurajima-color-white-200);
+}
+
+.theme-dark {
+	--accent-h: rgba(126, 99, 99, 1);  /* #8e6533 */
 }
 
 svg * {
