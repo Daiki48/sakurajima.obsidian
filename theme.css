@@ -131,3 +131,20 @@ svg * {
 	border-radius: 10px;
 	border-left: 8px solid var(--sakurajima-color-orange-200);
 }
+
+.markdown-rendered table {
+	border: 2px solid var(--sakurajima-color-rust-300);
+}
+
+.markdown-rendered table thead,
+.markdown-rendered table tfoot,
+.markdown-rendered table tbody,
+.markdown-rendered table td,
+.markdown-rendered table tr
+{
+	border: 2px solid var(--sakurajima-color-rust-300);
+}
+
+.markdown-rendered table thead {
+	background-color: var(--sakurajima-color-light-black-200);
+}
