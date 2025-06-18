@@ -148,3 +148,7 @@ svg * {
 .markdown-rendered table thead {
 	background-color: var(--sakurajima-color-light-black-200);
 }
+
+.markdown-rendered img {
+	border-radius: 8px;
+}
